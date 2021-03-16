@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>
+    <style>
+
+    body{
+        color:#fc0000;;
+       background-color: #10ff44;
+
+    }
+
+    
+
+    
+ th, td,table{        
+
+            width: 70%;
+            min-width: 200px;
+            margin-left: auto;
+            margin-right:auto;
+            text-align: center;
+            font-family: 'Arial', monospace ;
+            color: #160479;
+            background-color:  #cfbbf0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form action="" id="formularioAdd">
+        Nombre materia
+        <input type="text" name="nombre">
+        Descripción tarea
+        <input type="text" name="diametro">
+        Fecha de entrega
+        <input type="date" name="urlImagen">
+        <input type="submit">
+    </form>
+    <form action="" id="formularioDelete">
+        Nombre tarea a borrar
+        <input type="text" name="nombre">
+        <input type="submit">
+    </form>
+    <table id="listaTareas"></table>
+    <script src="tarealistatareas.js"></script>
+</body>
