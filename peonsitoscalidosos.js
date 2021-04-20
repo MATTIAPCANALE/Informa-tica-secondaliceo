@@ -56,14 +56,14 @@ let xBase=45
 for(let xBase=45; xBase < 361; xBase= xBase+45){
 
     DrawPawn(xBase,45)
-    ctx.fillStyle = "blue"
+    ctx.fillStyle = "black"
     ctx.fill()
     }
     
 
 for(let xBase2=45; xBase2< 361; xBase2= xBase2+45){
     DrawPawn(xBase2,270)
-    ctx.fillStyle="red"
+    ctx.fillStyle="White"
     ctx.fill()
     ctx.stroke()
     }
